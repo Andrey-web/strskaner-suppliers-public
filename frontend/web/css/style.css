@@ -1,0 +1,811 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+.bg {
+    background: linear-gradient(90deg, rgba(0, 134, 184, 1) 0%, rgba(0, 109, 152, 1) 100%);
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.about .text .title {
+    font-size: 35px;
+}
+
+.principles .text .title {
+    font-size: 35px;
+}
+
+.principles .text strong {
+    border-bottom: 1px solid #fff;
+}
+
+.footer .text .title {
+    font-size: 35px;
+}
+
+.footer-2 {
+    width: 100%;
+    background-color: #79BFF2;
+    padding: 20px 0;
+}
+
+.footer-2 .text {
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer-3 {
+    width: 100%;
+    background-color: #3C99E7;
+    padding: 40px 0;
+}
+
+.footer-3 .text {
+    text-align: center;
+}
+
+@media screen and (min-width: 1350px) {
+    .none-m {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        background-image: url(/img/construction.png), url(/img/triangle.png);
+        background-repeat: no-repeat;
+        background-position: right 100px top 50px, left top;
+        background-size: 60%, 75%;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .logo-phone {
+        width: 250px;
+        margin: 20px 0;
+    }
+
+    .header-text {
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-bottom: 250px;
+    }
+
+    .header-text .text {
+        margin-top: 30px;
+        color: #426A8C;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .header-text .text span {
+        font-weight: bold;
+    }
+
+    .header-text .open {
+        margin-top: 50px;
+        color: #101010;
+        font-size: 25px;
+        line-height: 35px;
+
+    }
+
+    .header-text .open .border {
+        width: 330px;
+        border-bottom: 2px solid #838282 !important;
+        margin: 10px 0;
+    }
+
+    .btn-register {
+        background-color: #FDA63F;
+        color: #fff;
+        font-size: 20px;
+        padding: 5px 30px;
+        font-weight: bold;
+    }
+
+
+    .about {
+        width: 100%;
+        background-color: #D2DBDE;
+        background-image: url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right 100px;
+        background-size: 40%;
+    }
+
+    .about .text {
+        margin-top: 150px;
+        margin-left: 150px;
+        padding-bottom: 150px;
+        color: #426A8C;
+        font-size: 28px;
+    }
+
+    .principles {
+        width: 100%;
+        background-color: #1788BC;
+        background-image: url(/img/footer.png), url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right -100px bottom, right 100px;
+        background-size: 40%;
+    }
+
+    .principles .text {
+        margin-top: 150px;
+        margin-left: 150px;
+        padding-bottom: 150px;
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #fff;
+        background-image: url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right 100px;
+        background-size: 40%;
+    }
+
+    .footer .text {
+        margin-top: 150px;
+        margin-left: 150px;
+        padding-bottom: 150px;
+        color: #517695;
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1350px) {
+    .none-m {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        background-image: url(/img/construction.png), url(/img/triangle.png);
+        background-repeat: no-repeat;
+        background-position: right 10px top 10px, left top;
+        background-size: 68%, 75%;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .logo-phone {
+        width: 250px;
+        margin: 15px 0;
+    }
+
+    .header-text {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .header-text .text {
+        margin-top: 30px;
+        color: #426A8C;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .header-text .text span {
+        font-weight: bold;
+    }
+
+    .header-text .open {
+        margin-top: 50px;
+        color: #101010;
+        font-size: 23px;
+        line-height: 35px;
+
+    }
+
+    .header-text .open .border {
+        width: 300px;
+        border-bottom: 2px solid #838282 !important;
+        margin: 10px 0;
+    }
+
+    .btn-register {
+        background-color: #FDA63F;
+        color: #fff;
+        font-size: 20px;
+        padding: 5px 30px;
+        font-weight: bold;
+    }
+
+
+    .about {
+        width: 100%;
+        background-color: #D2DBDE;
+        background-image: url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right 100px;
+        background-size: 40%;
+    }
+
+    .about .text {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 60px;
+        color: #426A8C;
+        font-size: 25px;
+    }
+
+    .principles {
+        width: 100%;
+        background-color: #1788BC;
+        background-image: url(/img/footer.png), url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right -100px bottom -50px, right 100px top 50px;
+        background-size: 40%;
+    }
+
+    .principles .text {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #fff;
+        background-image: url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right 100px;
+        background-size: 40%;
+    }
+
+    .footer .text {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        color: #517695;
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 980px) {
+    .none-m {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        background-image: url(/img/construction.png), url(/img/triangle.png);
+        background-repeat: no-repeat;
+        background-position: right 10px top 50px, left top;
+        background-size: 60%, 75%;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .logo-phone {
+        margin: 10px 0;
+        width: 150px;
+    }
+
+    .header-text {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-text .text {
+        margin-top: 10px;
+        color: #426A8C;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .header-text .text span {
+        font-weight: bold;
+    }
+
+    .header-text .open {
+        margin-top: 20px;
+        color: #101010;
+        font-size: 17px;
+        line-height: 20px;
+
+    }
+
+    .header-text .open .border {
+        width: 250px;
+        border-bottom: 2px solid #838282 !important;
+        margin: 10px 0;
+    }
+
+    .btn-register {
+        background-color: #FDA63F;
+        color: #fff;
+        font-size: 20px;
+        padding: 5px 30px;
+        font-weight: bold;
+    }
+
+
+    .about {
+        width: 100%;
+        background-color: #D2DBDE;
+        background-image: url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right 100px;
+        background-size: 40%;
+    }
+
+    .about .text {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        color: #426A8C;
+        font-size: 20px;
+    }
+
+    .principles {
+        width: 100%;
+        background-color: #1788BC;
+        background-image: url(/img/footer.png), url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right -50px bottom -10px, right 100px top 50px;
+        background-size: 35%;
+    }
+
+    .principles .text {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #fff;
+        background-image: url(/img/points-1.png);
+        background-repeat: no-repeat;
+        background-position: right 100px;
+        background-size: 40%;
+    }
+
+    .footer .text {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        color: #517695;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 700px) {
+    .none-m {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        background-image: url(/img/construction.png), url(/img/triangle.png);
+        background-repeat: no-repeat;
+        background-position: right 10px top 50px, left top;
+        background-size: 60%, 75%;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .logo-phone {
+        width: 100px;
+        margin: 10px 0;
+    }
+
+    .header-text {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    .header-text .text {
+        margin-top: 10px;
+        color: #426A8C;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .header-text .text span {
+        font-weight: bold;
+    }
+
+    .header-text .open {
+        margin-top: 20px;
+        color: #101010;
+        font-size: 17px;
+        line-height: 20px;
+
+    }
+
+    .header-text .open .border {
+        width: 250px;
+        border-bottom: 2px solid #838282 !important;
+        margin: 10px 0;
+    }
+
+    .btn-register {
+        background-color: #FDA63F;
+        color: #fff;
+        font-size: 20px;
+        padding: 5px 30px;
+        font-weight: bold;
+    }
+
+
+    .about {
+        width: 100%;
+        background-color: #D2DBDE;
+    }
+
+    .about .text {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        margin-right: 10px;
+        color: #426A8C;
+        font-size: 20px;
+    }
+
+    .principles {
+        width: 100%;
+        background-color: #1788BC;
+        background-image: url(/img/footer.png);
+        background-repeat: no-repeat;
+        background-position: right -150px bottom -50px;
+        background-size: 130%;
+    }
+
+    .principles .text {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 80px;
+        margin-right: 10px;
+        color: #0E1110;
+        font-size: 20px;
+    }
+
+    .principles .text strong {
+        border-bottom: 1px solid #0E1110;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #fff;
+
+    }
+
+    .footer ul {
+        margin-left: -20px;
+
+    }
+
+    .footer ul li {
+        list-style: circle
+    }
+
+    .footer .text {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        color: #517695;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .none-d {
+        display: none;
+    }
+
+    .top {
+        padding: 15px 0 15px 0;
+    }
+
+    .map {
+        width: 35px;
+        margin-top: -10px;
+        padding-right: 10px;
+    }
+
+    .tmn {
+        font-size: 25px;
+    }
+
+    .header {
+        width: 100%;
+
+        background-image: url(/img/construction.png), url(/img/triangle.png);
+        background-repeat: no-repeat;
+        background-position: right 10px top 50px, left -290px top;
+        background-size: 100%, 150%;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .logo-phone {
+        width: 150px;
+        margin: 10px 0;
+    }
+
+    .header-text {
+        width: 100%;
+        padding-top: 380px;
+
+    }
+
+    .bg .text {
+        width: 100%;
+        margin-top: 25px;
+        color: #fff;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+
+    }
+
+    .header-text .text span {
+        font-weight: bold;
+    }
+
+    .header-text .open {
+
+        color: #fff;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+
+    }
+
+    .header-text .open .border {
+        width: 100%;
+        border-bottom: 1px solid #fff !important;
+        margin: 10px 0;
+    }
+
+    .btn-register {
+        background-color: #FDA63F;
+        color: #fff;
+        font-size: 20px;
+        padding: 5px 30px;
+        font-weight: bold;
+    }
+
+
+    .about {
+        width: 100%;
+        background-color: #D2DBDE;
+    }
+
+    .about .text {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        margin-right: 10px;
+        color: #426A8C;
+        font-size: 20px;
+    }
+
+    .principles {
+        width: 100%;
+        background-color: #1788BC;
+        background-image: url(/img/footer.png);
+        background-repeat: no-repeat;
+        background-position: right -150px bottom -50px;
+        background-size: 130%;
+    }
+
+    .principles .text {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 80px;
+        margin-right: 10px;
+        color: #0E1110;
+        font-size: 20px;
+    }
+
+    .principles .text strong {
+        border-bottom: 1px solid #0E1110;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #fff;
+
+    }
+
+    .footer ul {
+        margin-left: -20px;
+
+    }
+
+    .footer .text {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        color: #517695;
+        font-size: 20px;
+    }
+
+    .tel {
+        color: #0E1110;
+        text-decoration: none;
+    }
+
+}
+
+/**Регистрация - начало**/
+body {
+    font-family: 'Segoe UI';
+    background: linear-gradient(90deg, rgba(0, 134, 184, 1) 0%, rgba(0, 109, 152, 1) 100%);
+}
+
+
+.top {
+    padding: 15px 0 15px 0;
+    background-color: #fff;
+}
+
+.map {
+    width: 35px;
+    /*margin-top: -10px;*/
+    padding-right: 10px;
+
+}
+
+.tmn {
+    font-size: 18px;
+}
+
+
+/*
+.logo {
+    width: 150px;
+}
+*/
+
+.registration {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #E3E3E3;
+    font-size: 18px;
+}
+
+.back {
+    color: #1E88D1;
+    padding: 3px 15px;
+    border: 1px solid #1E88D1;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 17px;
+}
+
+.btn-go {
+    color: #fff;
+    padding: 15px 80px;
+    background-color: #1E88D1;
+    border-radius: 5px;
+    font-weight: bold;
+
+    border: none;
+}
+
+.btn-go:hover {
+    color: #fff;
+    padding: 15px 80px;
+    background-color: #135F92;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+input {
+    font-size: 25px !important;
+    border-radius: 8px !important;
+    font-weight: bold;
+}
+
+.checkbox {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    color: #70757D;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.checkbox input {
+    position: absolute;
+    right: 40px;
+    width: 25px;
+    height: 25px;
+    padding: 10px !important;
+}
+/**Регистрация - конец**/
+
+
+
+/**Шаг 2 - начало**/
+.modal-content{
+    background-color: #E3E3E3;
+}
+
+.modal-content button{
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #1E88D1;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.modal-content button:hover{
+    background-color: #135F92;
+}
+
+/**Шаг 2 - конец**/
+
+/**Шаг 3 - начало**/
+
+.sms{
+    padding: 3px 15px;
+    border: 1px solid #5A5A5A;
+    color: #5A5A5A;
+    border-radius: 5px;
+}
+.sms:hover{
+    text-decoration: none;
+    border: 1px solid #1E1E1E;
+    color: #1E1E1E;
+}
+.b-sms{width: 100%; text-align: center; margin: 15px 0 25px 0;}
+
+/**Шаг 3 - конец**/
+
+button[disabled=disabled]{
+    opacity: .2;
+}
+button[disabled=disabled]:hover{
+    background-color: #1E88D1;
+}

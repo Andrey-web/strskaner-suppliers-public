@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg1045"
+   version="1.1"
+   viewBox="0 0 10 16"
+   height="16mm"
+   width="10mm">
+  <defs
+     id="defs1039" />
+  <metadata
+     id="metadata1042">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-281)"
+     id="layer1">
+    <path
+       d="M 5.00001,281.00001 A 4.9999967,4.9999967 0 0 0 0,286 c 0,4.99999 5.00001,10.99999 5.00001,10.99999 0,0 4.99999,-6 4.99999,-10.99999 a 4.9999967,4.9999967 0 0 0 -4.99999,-4.99999 z m 0,8.06274 a 3.060164,3.060164 0 1 1 3.06016,-3.06016 3.060164,3.060164 0 0 1 -3.06016,3.06016 z M 3.06224,286.00259 A 1.9377581,1.9377581 0 1 1 5.00001,287.93568 1.9377581,1.9377581 0 0 1 3.06224,286 Z"
+       data-name="Icon metro-location"
+       id="Icon_metro-location"
+       style="fill:#446a8f;stroke-width:0.51867181" />
+  </g>
+</svg>

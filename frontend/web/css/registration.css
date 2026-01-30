@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI';
+    background: linear-gradient(90deg, rgba(0, 134, 184, 1) 0%, rgba(0, 109, 152, 1) 100%);
+}
+
+
+.top {
+    padding: 15px 0 15px 0;
+    background-color: #fff;
+}
+
+.map {
+    width: 35px;
+    margin-top: -10px;
+    padding-right: 10px;
+
+}
+
+.tmn {
+    font-size: 18px;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.registration {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #E3E3E3;
+    font-size: 18px;
+}
+
+.back {
+    color: #1E88D1;
+    padding: 3px 15px;
+    border: 1px solid #1E88D1;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 17px;
+}
+
+.btn-go {
+    color: #fff;
+    padding: 15px 0px;
+    background-color: #1E88D1;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-go:hover {
+    color: #fff;
+    padding: 15px 80px;
+    background-color: #135F92;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
