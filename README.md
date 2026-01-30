@@ -1,60 +1,53 @@
-<p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
-    <br>
-</p>
+# StroySkaner — регистрация поставщиков
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+Публичный портал регистрации поставщиков и производителей строительных материалов. Независимый онлайн‑сервис поиска и заказа строительных материалов напрямую от поставщиков (песок, щебень, отсев, ПЩС) в Тюмени.
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
-
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
-
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
-
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![build](https://github.com/yiisoft/yii2-app-advanced/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-advanced/actions?query=workflow%3Abuild)
-
-DIRECTORY STRUCTURE
--------------------
+## Структура проекта
 
 ```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for frontend application
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
+common/          общие конфиги, модели (User, LoginForm), шаблоны писем
+console/         конфиг консоли, миграции
+backend/         админ-приложение (вход, главная)
+frontend/        публичный сайт (лендинг, регистрация поставщиков, signup, логин)
+environments/    настройки под окружения (dev/prod)
 ```
+
+Основные сущности регистрации поставщиков:
+
+- **rp_manufacturer** — поставщик/производитель (реквизиты, тип компании, статус).
+- **rp_address** — адреса карьеров/точек (привязка к поставщику).
+- **rp_payment** — способы оплаты (НДС, безнал, карта, чек и т.д.).
+- **confirm_manufacturer** — коды подтверждения при пошаговой регистрации.
+
+---
+
+## Требования и запуск
+
+- PHP, Composer, БД (MySQL и т.п.).
+- Для подсказок по ИНН/адресам — [DaData](https://dadata.ru/) (токен задаётся в коде/конфиге).
+
+Установка зависимостей:
+
+```bash
+composer install
+```
+
+Инициализация окружения (если используете `init`):
+
+```bash
+php init
+```
+
+Настройка БД в `common/config/main-local.php` и запуск миграций:
+
+```bash
+php yii migrate
+```
+
+Для фронта и бэка указываются свои entry point (например, `frontend/web`, `backend/web`) и при необходимости виртуальные хосты/прокси.
+
+---
+
+## О проекте
+
+Сервис не продаёт материалы, а помогает покупателям находить поставщиков и производителей без посредников. Регистрация на портале — первый шаг для поставщиков и производителей, желающих разместиться в системе StroySkaner.
